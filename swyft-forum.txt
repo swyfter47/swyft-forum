@@ -1,0 +1,86 @@
+/swyft-forum
+├── index.html               ← Forum homepage
+├── style.css                ← Swyft Sportz branding
+├── /categories
+│   ├── mythos.html
+│   ├── girls-women.html
+│   ├── spotlights.html
+│   ├── activation.html
+│   └── partnerships.html
+├── /threads
+│   ├── mythos-thread1.html
+│   ├── girls-thread1.html
+│   └── ...
+└── /assets
+    └── logo.png, avatars, badges
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swyft Sportz Forum</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🏉 Swyft Sportz Forum</h1>
+    <nav>
+      <a href="categories/mythos.html">Mythos™ Missions</a>
+      <a href="categories/girls-women.html">Girls & Women’s Rugby</a>
+      <a href="categories/spotlights.html">Club Spotlights</a>
+      <a href="categories/activation.html">Activation Ideas</a>
+      <a href="categories/partnerships.html">Regenerative Partnerships</a>
+    </nav>
+  </header>
+  <main>
+    <p>Welcome to the mythic heart of Swyft Sportz. Choose a category and join the movement.</p>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mythos Thread: Club Origins</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h2>🌟 Mythos™ Thread: Club Origins</h2>
+    <a href="../index.html">← Back to Forum</a>
+  </header>
+  <main>
+    <article>
+      <h3>Ruggaz RFC: Born in the Dust</h3>
+      <p>We started with six kids, one ball, and a dream. Our Mythos is built on grit and joy...</p>
+    </article>
+    <section>
+      <h4>Replies</h4>
+      <p><strong>SwiftyGirl:</strong> Love this origin story! We started with a borrowed kit and a borrowed field 💥</p>
+      <p><strong>CoachT:</strong> Mythos lives in every tackle. Respect!</p>
+    </section>
+  </main>
+</body>
+</html>
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+header {
+  background: #004080;
+  color: white;
+  padding: 10px;
+}
+nav a {
+  margin-right: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+main {
+  margin-top: 20px;
+}
+article, section {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
